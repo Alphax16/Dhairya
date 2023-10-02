@@ -2,7 +2,7 @@
 
 import streamlit as st
 import pandas as pd
-from stock_trading_functions_2 import get_historical_data, moving_average_crossover_strategy, predict_stock_prices
+from analysis_functions_2 import get_historical_data, moving_average_crossover_strategy, predict_stock_prices
 
 
 st.set_page_config(

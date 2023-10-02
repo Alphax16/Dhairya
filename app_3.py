@@ -2,7 +2,7 @@
 
 import streamlit as st
 import pandas as pd
-from stock_trading_functions_2 import get_historical_data, moving_average_crossover_strategy
+from analysis_functions_2 import get_historical_data, moving_average_crossover_strategy
 
 
 VALID_STOCK_SYMBOLS = ['AAPL', 'MSFT', 'GOOGL', 'AMZN']
